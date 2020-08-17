@@ -1,20 +1,11 @@
 import java.util.Scanner;
 
-/**
- * Clase Cuenta
- * ------------
- * 
- */
-/**
- *
- * @author Javier Crego
- */
 public class Cuenta {
 	public static void main(String args[]){
 	    int total = 0, menor = 0, mayor = 0, cahorradadiaria = 0;
 	    Scanner sc = new Scanner(System.in);
 	    String diaMenor = "",diaMayor = "",dia = "";
-	    System.out.println("Escribe tu monto ahorrado cada día de la semana");
+	    System.out.println("Escribe tu monto ahorrado cada dÃ­a de la semana");
 	    for (int i = 1; i<=7; i++) {
 	        switch(i) {
 	        case 1:
